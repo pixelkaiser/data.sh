@@ -1,1 +1,32 @@
-TEST
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=100%" />
+<style>
+   * {
+      box-sizing: border-box;
+   }
+   body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 17px;
+   }
+   .backgroundVideo {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+   }
+</style>
+</head>
+<body>
+<video autoplay class="backgroundVideo" controls>
+    <source src="logo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+    <source
+src="logo.webm"
+type="video/mp4"/>
+</video>
+</body>
+</html>
